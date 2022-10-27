@@ -1,6 +1,6 @@
-const Contact = require('../models/contact');
-const { RequestError } = require('../helpers/RequestError');
-const updateFavoriteSchema = require('../schemas/schemas');
+const Contact = require('../../models/contact');
+const { RequestError } = require('../../helpers/RequestError');
+const updateFavoriteSchema = require('../../schemas/schemas');
 
 const updateFavoriteField = async (req, res, next) => {
     try {

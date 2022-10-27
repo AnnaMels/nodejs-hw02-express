@@ -11,6 +11,5 @@ const isValidId = (req, res, next) => {
     next();
 };
 
-module.exports = {
-    isValidId
-}
+
+module.exports = isValidId;
