@@ -31,6 +31,7 @@ const schemas = {
     registerSchema,
     loginSchema,
 }
+
 module.exports = {
     schemas
 };
